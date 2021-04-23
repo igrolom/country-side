@@ -1,0 +1,52 @@
+.header {
+  height: 95vh;
+  &--about {
+    background: rgb(29, 129, 161);
+    background: linear-gradient(
+      135deg,
+      $color-tertiary-light 0%,
+      $color-primary-dark 50%,
+      $color-primary-light 100%
+    );
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(35, 231, 130, 0.2) 0%,
+      rgba(0, 245, 255, 0.2) 100%
+    ),
+    url(../img/bg.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+
+  @include respond(tab-port) {
+    height: 50vh;
+    clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
+  }
+
+  &__logo {
+    height: 8.5rem;
+    animation-name: moveInRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+  }
+  &__logo:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    transition: all 0.2s;
+  }
+  &__logo-box {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+  }
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

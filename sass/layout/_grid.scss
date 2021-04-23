@@ -1,0 +1,67 @@
+.container-1 {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  row-gap: 2rem;
+  column-gap: 5rem;
+  padding: 6rem;
+  justify-content: center;
+  align-content: center;
+  @include respond(phone) {
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container-2 {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 0.5fr));
+  row-gap: 2rem;
+  column-gap: 5rem;
+  padding: 6rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.container-3 {
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 5rem;
+  // grid-template-columns: min-content auto;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 0.6fr));
+  padding: 6rem;
+  padding-bottom: 0;
+  justify-content: space-around;
+
+  // &.item-1 {
+  //   align-content: center;
+  // }
+  // &.item-2 {
+  //   align-content: center;
+  // }
+  // &.item-3 {
+  //   align-content: center;
+  // }
+}
+
+.container-4 {
+  &:not(:last-child) {
+    padding-top: 8rem;
+    display: grid;
+    @include respond(phone) {
+      padding-top: 4rem;
+    }
+  }
+
+  &.grid-item {
+    padding: 0 12rem;
+  }
+}
+
+.container-5 {
+  display: grid;
+
+  justify-content: space-evenly;
+}

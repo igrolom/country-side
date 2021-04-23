@@ -1,0 +1,313 @@
+<DOCTYPE html>
+  <html lang="ru">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="css/icon-font.css" />
+
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+      <script defer src="js/script.js"></script>
+
+      <title>Русская деревня</title>
+    </head>
+    <body>
+      <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+        <label for="navi-toggle" class="navigation__button">
+          <span class="navigation__icon icon-arrows-glide-vertical"> </span>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">О белгородчине</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Ивановка</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Продукция</a>
+            </li>
+            <!-- <li class="navigation__item">
+              <a href="#" class="navigation__link">Stories</a>
+            </li> -->
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Заказать</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <header class="header">
+        <div class="header__logo-box">
+          <img src="img/logo.png" alt="Logo" class="header__logo" />
+        </div>
+        <div class="header__text-box">
+          <h1 class="heading-primary">
+            <span class="heading-primary--main">Ивановский</span>
+            <span class="heading-primary--sub">уголок</span>
+          </h1>
+          <a
+            href="#section--1"
+            class="btn btn--white btn--animated btn--scroll-to"
+            >Узнать больше</a
+          >
+        </div>
+      </header>
+
+      <main>
+        <section class="section-about section" id="section--1">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary">
+              Экологически чистый район белгородчины
+            </h2>
+          </div>
+
+          <div class="container-1">
+            <div class="item item-1">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Белгородская земля
+              </h3>
+              <p class="paragraph">
+                впитала культуру многих древних народов: от железного века до
+                современности. Наиболее яркие эпизоды связаны со скифами и
+                сарматами, аланами и Киевской Русью, времён Белгородской
+                засечной черты и крупнейшим танковым сражением на Прохоровском
+                поле.
+              </p>
+
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Исследуйте природу родного края
+              </h3>
+              <p class="paragraph">
+                Погрузитесь в атмосферу незабываемых приключений, которые
+                подарит Вам единение с природой.
+              </p>
+              <a href="about.html" class="btn-text">Узнать больше &rarr;</a>
+            </div>
+            <div class="item item-2">
+              <div class="composition">
+                <img
+                  src="img/pic-1-lazy.jpg"
+                  data-src="img/pic-1.jpg"
+                  alt="Road"
+                  class="composition__photo composition__photo--p1 lazy-img"
+                /><img
+                  src="img/pic-3-lazy.jpg"
+                  data-src="img/pic-3.jpg"
+                  alt="Lake"
+                  class="composition__photo composition__photo--p2 lazy-img"
+                /><img
+                  src="img/pic-2-lazy.jpg"
+                  data-src="img/pic-2.jpg"
+                  alt="Evening"
+                  class="composition__photo composition__photo--p3 lazy-img"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-features section" id="section--2">
+          <div class="container-2">
+            <div class="feature-box">
+              <img src="./img/tree.svg" alt="tree" />
+
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Леса
+              </h3>
+              <p class="feature-box__text">
+                Неподалеку от села находится старый дубовый лес, а также
+                фруктовые сады.
+              </p>
+            </div>
+            <div class="feature-box">
+              <img src="./img/berry.svg" alt="berry" />
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Ягоды
+              </h3>
+              <p class="feature-box__text">
+                На склонах холмов и оврагов раскинулось множество землиничных
+                ягод.
+              </p>
+            </div>
+            <div class="feature-box">
+              <img src="./img/mushroom.svg" alt="mushroom" />
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Грибы
+              </h3>
+              <p class="feature-box__text">
+                В сосновых и березовых посадках можно собирать и лисички, и
+                опята, и маслята.
+              </p>
+            </div>
+            <div class="feature-box">
+              <img src="./img/leaf.svg" alt="leaf" />
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Травы
+              </h3>
+              <p class="feature-box__text">
+                Далеко от дорог луга усыпаны пахучими и полезными травами.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-tours section" id="section--3">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary">
+              Продукция
+            </h2>
+            <div class="container-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1">&nbsp;</div>
+                  <h4 class="card__heading">
+                    <div class="card__heading-span card__heading-span--1">
+                      Мясо-молочная продукция
+                    </div>
+                  </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>3 day tour</li>
+                      <li>Up to 30 people</li>
+                      <li>2 tour guides</li>
+                      <li>Sleep in cozy hotels</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                    <div class="card__price-box"></div>
+                    <a href="#popup" class="btn btn--white">Заказать</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--2">&nbsp;</div>
+                  <h4 class="card__heading">
+                    <div class="card__heading-span card__heading-span--2">
+                      Овощи и зелень
+                    </div>
+                  </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>7 day tour</li>
+                      <li>Up to 30 people</li>
+                      <li>2 tour guides</li>
+                      <li>Sleep in cozy hotels</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                    <div class="card__price-box"></div>
+                    <a href="#popup" class="btn btn--white">Заказать</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--3">&nbsp;</div>
+                  <h4 class="card__heading">
+                    <div class="card__heading-span card__heading-span--3">
+                      Целебные травы
+                    </div>
+                  </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>10 day tour</li>
+                      <li>Up to 30 people</li>
+                      <li>2 tour guides</li>
+                      <li>Sleep in cozy hotels</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                    <div class="card__price-box"></div>
+                    <a href="#popup" class="btn btn--white">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer section">
+        <div class="footer__logo-box">
+          <img src="img/logo.png" alt="Full logo" class="footer__logo" />
+        </div>
+        <div class="container-5">
+          <div class="container-5 item-1">
+            <div class="footer__navigation">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">О Белгородчине</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Связаться с нами</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Возможности</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Политика приватности</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Условия</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- <div class="container-5 item-2">
+            <p class="footer__copyright">
+              Built by <a href="#" class="footer__link">Jonas Schmed</a> for
+              this project. Copyright &copy;
+            </p>
+          </div> -->
+        </div>
+      </footer>
+
+      <div class="popup" id="popup">
+        <div class="popup__content">
+          <div class="popup__left">
+            <img src="img/greens.jpg" alt="Tour" class="popup__img" />
+            <img src="img/chicken.jpg" alt="Tour 2" class="popup__img" />
+          </div>
+          <div class="popup__right">
+            <a href="#section-tours" class="popup__close">&times;</a>
+            <h2 class="heading-secondary u-margin-bottom-small u-center-block">
+              Позвоните нам сейчас
+            </h2>
+            <!-- <h3 class="heading-tertiary u-margin-bottom-small">
+               &ndash; Please read this terms before booking
+            </h3> -->
+            <p class="popup__text">
+              <img src="./img/telegram.svg" alt="" class="img" />
+              <img
+                src="./img/icon_new - white +purple bg.svg"
+                alt=""
+                class="img"
+              />
+            </p>
+            <div class="u-center-block">
+              <a href="#" class="btn btn--green">Заказать</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
+</DOCTYPE>

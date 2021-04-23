@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/icon-font.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <script defer src="js/slider.js"></script>
+
+    <title>О Белгородчине</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon icon-arrows-glide-vertical"> </span>
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="index.html" class="navigation__link">Главная</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Ивановка</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Продукция</a>
+          </li>
+          <!-- <li class="navigation__item">
+          <a href="#" class="navigation__link">Stories</a>
+        </li> -->
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Заказать</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header header--about">
+      <div class="header__logo-box">
+        <img src="img/logo.png" alt="Logo" class="header__logo" />
+      </div>
+      <div class="u-center-text u-padding-top-sm">
+        <h2 class="heading-primary--main-1 u-margin-bottom-medium">
+          Фотогалерея
+        </h2>
+      </div>
+      <div class="slider">
+        <div class="slide"><img src="img/pic-1.jpg" alt="Photo 1" /></div>
+        <div class="slide"><img src="img/pic-2.jpg" alt="Photo 2" /></div>
+        <div class="slide"><img src="img/pic-3.jpg" alt="Photo 3" /></div>
+        <div class="slide"><img src="img/pic-4.jpg" alt="Photo 4" /></div>
+
+        <div class="dots"></div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </header>
+    <footer class="footer section">
+      <div class="footer__logo-box">
+        <img src="img/logo.png" alt="Full logo" class="footer__logo" />
+      </div>
+      <div class="container-5">
+        <div class="container-5 item-1">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">О Белгородчине</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Связаться с нами</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Возможности</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Политика приватности</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Условия</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- <div class="container-5 item-2">
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Jonas Schmed</a> for
+            this project. Copyright &copy;
+          </p>
+        </div> -->
+      </div>
+    </footer>
+  </body>
+</html>
